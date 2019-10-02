@@ -493,7 +493,7 @@
   {
     "id": "core-mvi",
     "version": "0.5.0",
-    "unstable_version": 0,
+    "unstable_version": 1,
     "stable": false,
     "dir": "core-mvi",
     "libs": [
@@ -527,6 +527,10 @@
           {
             "name": "rx-extension",
             "type": "implementation"
+          },
+          {
+            "name": "easyadapter",
+            "type": "implementation"
           }
         ]
       }
@@ -543,7 +547,7 @@
   {
     "id": "core-mvp-binding",
     "version": "0.5.0",
-    "unstable_version": 2,
+    "unstable_version": 3,
     "stable": false,
     "dir": "core-mvp-binding",
     "libs": [
@@ -1244,7 +1248,7 @@
   {
     "id": "network",
     "version": "0.5.0",
-    "unstable_version": 0,
+    "unstable_version": 1,
     "stable": false,
     "dir": "deprecated/network",
     "libs": [
@@ -1470,7 +1474,7 @@
   {
     "id": "rx-extension",
     "version": "0.5.0",
-    "unstable_version": 1,
+    "unstable_version": 2,
     "stable": false,
     "dir": "rx-extension",
     "libs": [
