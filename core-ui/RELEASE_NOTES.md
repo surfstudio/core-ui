@@ -5,6 +5,8 @@
 * ANDDEP-466 Fixed crash when calling `FragmentNavigaotr.popStack` with `popDepth` < 0
 * Fix logging screen names
 * Fix extra name for settingsNegativeButtonStr in DefaultSettingsRationalActivity
+* Add additional Route Extra parameters
+* ANDDEP-950 Add different gradle script for modules without deploy
 ## 0.4.0
 ##### Core-ui
 * Added the ability to set text for the buttons of the standard dialog for switching to settings.
