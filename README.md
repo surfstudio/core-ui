@@ -1,4 +1,4 @@
-# Module Name
+# Core-UI
 
 [![Download][build_version_icon]][build_version_link] 
 [![Build Status][build_status_icon]][build_status_link] 
@@ -6,7 +6,7 @@
 [![Android Standard][android_standard_icon]][android_standard_link]
 [![Android Arsenal][android_arsenal_icon]][android_arsenal_link]
 
-Short module description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+Short module description: TODO
 
 ## Download
 This library is available through JCenter. 
@@ -57,8 +57,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-[build_version_link]: https://bintray.com/surf/maven/easyadapter/_latestVersion
-[build_version_icon]: https://img.shields.io/bintray/v/surf/maven/easyadapter?label=JCenter
+[build_version_link]: https://bintray.com/surf/maven/core-ui/_latestVersion
+[build_version_icon]: https://img.shields.io/bintray/v/surf/maven/core-ui?label=JCenter
 [build_status_link]: https://jenkins.surfstudio.ru/view/Projects/view/Android_Standard/job/Android_Standard_Component_Mirroring_Job/
 [build_status_icon]: https://jenkins.surfstudio.ru/buildStatus/icon?job=Android_Standard_Component_Mirroring_Job
 [license_link]: http://www.apache.org/licenses/LICENSE-2.0
