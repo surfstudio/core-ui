@@ -1,13 +1,8 @@
-[Главная страница репозитория](/docs/main.md)
+[Главная страница репозитория](../docs/main.md)
+
+[TOC]
 
 # Core ui
-
-- [Основные сущности](#основные-сущности)
-- [Дополнительные сущности](#дополнительные-сущности)
-- [Использование](#использование)
-- [Подключение](#подключение)
-- [Ссылки](#ссылки)
-
 Создан в результате развития идей проекта [ferro](https://github.com/MaksTuev/ferro).
 
 Модуль расширяющий возможности ui части Android Framework.
@@ -32,17 +27,22 @@
 
 ### Дополнительные сущности:
 
+1. [ActivityNavigator, FragmentNavigator, TabFragmentNavigator, ChildFragmentNavigator,
+ GlobalNavigator][nav] - позволяют осуществлять навигацию по приложению c помощью
+ специальных сущностей Route
+1. [`PermissionManager`][pm] - позволяет запрашивать RuntimePermissions
 1. [`ActivityProvider`][ap], [`FragmentProvider`][fp] - предоставляют "живые" Activity
 или Fragment даже после смены конфигурации
 
 Механизм делегирования событий экрана (см ScreenEventDelegateManager)
 позволяет создавать законченные сущности, которые необходимы для "чистой"
-архитектуры.
+архитектуры. Например, использование ActivityNavigator избавляет от необходимости
+переопределять метод onActivityResult и полностью инкапсулирует работу с Intent.
 
 Большинство асинхронных взаимодействий осуществляются через rxJava. 
 
 # Использование
-[Пример использования](../sample)
+[Пример использования](../core-ui-sample)
 
 # Подключение
 Gradle:
@@ -51,7 +51,7 @@ Gradle:
 ```
 
 # Ссылки
-[Архитектура приложений Surf](/docs/common/architect.md)
+[Архитектура приложений Surf](../docs/common/architect.md)
 
 [bac]: src/main/java/ru/surfstudio/android/core/ui/configurator/BaseActivityConfigurator.java
 [bfc]: src/main/java/ru/surfstudio/android/core/ui/configurator/BaseFragmentConfigurator.java
@@ -60,7 +60,7 @@ Gradle:
 [pss]: src/main/java/ru/surfstudio/android/core/ui/scope/PersistentScopeStorage.java
 [ss]: src/main/java/ru/surfstudio/android/core/ui/state/ScreenState.java
 [sedm]: src/main/java/ru/surfstudio/android/core/ui/event/ScreenEventDelegateManager.java
-[nav]: /docs/ui/navigation.md
-[pm]: ../../permission/lib-permission/src/main/java/ru/surfstudio/android/core/ui/permission/PermissionManager.kt
+[nav]: docs/navigation.md
+[pm]: src/main/java/ru/surfstudio/android/core/ui/permission/PermissionManager.java
 [ap]: src/main/java/ru/surfstudio/android/core/ui/provider/ActivityProvider.java
 [fp]: src/main/java/ru/surfstudio/android/core/ui/provider/FragmentProvider.java
