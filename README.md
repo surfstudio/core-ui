@@ -64,7 +64,7 @@ limitations under the License.
 [license_link]: http://www.apache.org/licenses/LICENSE-2.0
 [license_icon]: https://img.shields.io/badge/license-Apache%202-blue
 [wiki_link]: $WIKI_LINK$
-[release_notes]: /$MODULE_NAME$/RELEASE_NOTES.md
+[release_notes]: /core-ui/RELEASE_NOTES.md
 [issue_tracker]: $ISSUE_TRACKER$
 
 [android_standard_icon]: https://img.shields.io/badge/Android%20Standard-Repo-brightgreen 
