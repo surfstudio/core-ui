@@ -42,7 +42,7 @@
 Большинство асинхронных взаимодействий осуществляются через rxJava. 
 
 # Использование
-[Пример использования](../sample)
+[Пример использования](../analytics/sample)
 
 # Подключение
 Gradle:
@@ -53,14 +53,14 @@ Gradle:
 # Ссылки
 [Архитектура приложений Surf](/docs/common/architect.md)
 
-[bac]: src/main/java/ru/surfstudio/android/core/ui/configurator/BaseActivityConfigurator.java
-[bfc]: src/main/java/ru/surfstudio/android/core/ui/configurator/BaseFragmentConfigurator.java
-[c]: src/main/java/ru/surfstudio/android/core/ui/configurator/Configurator.java
-[ps]: src/main/java/ru/surfstudio/android/core/ui/scope/PersistentScope.java
-[pss]: src/main/java/ru/surfstudio/android/core/ui/scope/PersistentScopeStorage.java
-[ss]: src/main/java/ru/surfstudio/android/core/ui/state/ScreenState.java
-[sedm]: src/main/java/ru/surfstudio/android/core/ui/event/ScreenEventDelegateManager.java
+[bac]: lib-core-ui/src/main/java/ru/surfstudio/android/core/ui/configurator/BaseActivityConfigurator.java
+[bfc]: lib-core-ui/src/main/java/ru/surfstudio/android/core/ui/configurator/BaseFragmentConfigurator.java
+[c]: lib-core-ui/src/main/java/ru/surfstudio/android/core/ui/configurator/Configurator.java
+[ps]: lib-core-ui/src/main/java/ru/surfstudio/android/core/ui/scope/PersistentScope.java
+[pss]: lib-core-ui/src/main/java/ru/surfstudio/android/core/ui/scope/PersistentScopeStorage.java
+[ss]: lib-core-ui/src/main/java/ru/surfstudio/android/core/ui/state/ScreenState.java
+[sedm]: lib-core-ui/src/main/java/ru/surfstudio/android/core/ui/event/ScreenEventDelegateManager.java
 [nav]: /docs/ui/navigation.md
-[pm]: ../../permission/lib-permission/src/main/java/ru/surfstudio/android/core/ui/permission/PermissionManager.kt
-[ap]: src/main/java/ru/surfstudio/android/core/ui/provider/ActivityProvider.java
-[fp]: src/main/java/ru/surfstudio/android/core/ui/provider/FragmentProvider.java
+[pm]: ../permission/lib-permission/src/main/java/ru/surfstudio/android/core/ui/permission/PermissionManager.kt
+[ap]: lib-core-ui/src/main/java/ru/surfstudio/android/core/ui/provider/ActivityProvider.java
+[fp]: lib-core-ui/src/main/java/ru/surfstudio/android/core/ui/provider/FragmentProvider.java
