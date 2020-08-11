@@ -6,7 +6,7 @@
 [![Android Standard][android_standard_icon]][android_standard_link]
 [![Android Arsenal][android_arsenal_icon]][android_arsenal_link]
 
-Short module description: TODO
+Short module description: очень большой и продуманный тест
 
 ## Download
 This library is available through JCenter. 
